@@ -17,6 +17,7 @@ xmlns="http://www.w3.org/ns/widgets">
 <preference name="target-device" value="universal"/> 
 <preference name="fullscreen" value="false"/> 
 <preference name="detect-data-types" value="true"/>
+<preference name="exit-on-suspend" value="true" />
  
 <icon src="icon.png"/> 
 <icon src="icons/ios/icon.png" height="57" width="57"/> 
@@ -31,5 +32,12 @@ xmlns="http://www.w3.org/ns/widgets">
 <icon src="icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background"/> 
 <icon src="icons/webos/icon.png" gap:platform="webos"/> 
 <icon src="icons/webos/icon.png" gap:platform="webos"/>
+
+<gap:splash src="images/Reception2.png"         gap:platform="blackberry" />
+<gap:splash src="images/Reception2.png"    gap:platform="ios"     width="320" height="480" />
+<gap:splash src="images/Reception2.png" gap:platform="ios"     width="640" height="960" />
+<gap:splash src="images/Reception2.png"      gap:platform="ios"     width="768" height="1024" />
+<gap:splash src="images/Reception2.png"     gap:platform="ios"     width="1024" height="768" />
+<gap:splash src="images/Reception2.png" gap:platform="winphone" />
  
 </widget>
